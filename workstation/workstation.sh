@@ -70,6 +70,8 @@ chmod 700 get_helm.sh
 ./get_helm.sh
 VALIDATE $? "helm installation"
 
+# these can be installed after cluster creation
+
 # K9S
 
 curl -sS https://webinstall.dev/k9s | bash
